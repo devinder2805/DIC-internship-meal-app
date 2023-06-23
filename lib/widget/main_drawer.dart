@@ -16,9 +16,10 @@ class MainDrawer extends StatelessWidget {
               child: Text(
                 "Hello",
                 style: TextStyle(
-                    fontWeight: FontWeight.w900,
-                    fontSize: 30,
-                    color: Theme.of(context).primaryColor),
+                  fontWeight: FontWeight.w900,
+                  fontSize: 30,
+                  color: Theme.of(context).primaryColor,
+                ),
               ),
             ),
           ),
