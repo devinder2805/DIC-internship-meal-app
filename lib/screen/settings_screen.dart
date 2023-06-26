@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../widget/main_drawer.dart';
 
 class FilterMeals extends StatelessWidget {
   const FilterMeals({super.key});
@@ -9,9 +10,13 @@ class FilterMeals extends StatelessWidget {
       appBar: AppBar(
         title: const Text("Settings"),
       ),
-      body: const Center(
-        child: Text("Settings"),
+      body: SwitchListTile(
+        value: false,
+        onChanged: null,
+        title: Text("Gluten - free "),
+        subtitle: Text("Only include gluten free"),
       ),
+      drawer: MainDrawer(),
     );
   }
 }

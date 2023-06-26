@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 import '../widget/main_drawer.dart';
+
 import 'categories_screen.dart';
 import 'favourites_screen.dart';
 
 class TabScreen extends StatefulWidget {
+  static const routeName = "HomeScreen";
   const TabScreen({super.key});
 
   @override
